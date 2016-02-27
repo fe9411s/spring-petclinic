@@ -272,6 +272,12 @@
             <artifactId>json-simple</artifactId>
         </dependency>
     </dependencies>
+<distributionManagement>
+  <snapshotRepository>
+    <id>spring-petclinic</id>
+    <url>http://127.0.0.1:8081/nexus/content/repositories/spring-petclinic</url>
+  </snapshotRepository>
+</distributionManagement>
 
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
